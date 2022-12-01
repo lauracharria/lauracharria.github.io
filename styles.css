@@ -1,0 +1,19 @@
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#left {
+  float: left;
+  width: 50%;
+}
+#right {
+  float: left;
+  width: 50%;
+}
+
+#c {
+  border-radius: 15px;
+  width: 100%;
+}
