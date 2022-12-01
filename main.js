@@ -39,10 +39,8 @@ function main() {
   canvas.onmousedown = function () {
     ++mouseDown;
 
-    if (event.x > 300 && event.x < 700 && event.y > 100 && event.y < 420){
-      alert(event.x);
-      alert(event.y);
-      //window.location = "https://lauracharria.notion.site/Welcome-to-Lala-s-Portfolio-69ada19a1a2c416586c63101d9477350";
+    if (event.x > 450 && event.x < 1000 && event.y > 150 && event.y < 600){
+      window.location = "https://lauracharria.notion.site/Welcome-to-Lala-s-Portfolio-69ada19a1a2c416586c63101d9477350";
     }
   };
   canvas.onmouseup = function () {
