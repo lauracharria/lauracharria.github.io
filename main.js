@@ -61,7 +61,7 @@ function main() {
   const scene = new THREE.Scene();
   const loader2 = new THREE.TextureLoader();
   
-loader2.load('./sand.jpg' , function(texture)
+loader2.load('./quicksand.jpg' , function(texture)
             {
              scene.background = texture;
             });
