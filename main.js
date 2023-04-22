@@ -60,7 +60,8 @@ function main() {
 
   const scene = new THREE.Scene();
   const loader2 = new THREE.TextureLoader();
-loader2.load('./nuevosunset.jpg' , function(texture)
+  
+loader2.load('./sand.jpg' , function(texture)
             {
              scene.background = texture;
             });
